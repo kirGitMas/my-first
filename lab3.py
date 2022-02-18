@@ -4,7 +4,9 @@ from IPython.display import display
 import math
 import methods as met
 
-dx = 0.001
+dx = 0.0015
+hx = 0.5
+
 
 grad_fx1 = lambda func, x0, x1: (func(x0 + dx, x1) - func(x0, x1)) / dx
 grad_fx2 = lambda func, x0, x1: (func(x0, x1 + dx) - func(x0, x1)) / dx
