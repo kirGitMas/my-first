@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import lab3 as grad
 import  DichotomyMethod as graphic
 from scipy.misc import derivative
-
+# NEW DEVELOP CHANGE
 y = lambda t: (1 - t) * sh(t)
 h = 0.1
 eps = 0.01
